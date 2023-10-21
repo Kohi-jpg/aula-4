@@ -2,7 +2,7 @@ n = int(input('fat: '))
 resultado = 1
 count = 1
 
-whule count<=N:
+while count<=n:
     resultado *= count
     count +=1
 
