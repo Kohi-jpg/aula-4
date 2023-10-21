@@ -1,9 +1,8 @@
-n = int(input('fat: '))
-resultado = 1
-count = 1
+produtos = my_dict = {
+}
 
-whule count<=N:
-    resultado *= count
-    count +=1
+palavra = input('Adicionar produto:\n')
+preco = input('Adicionar preço:\n')
 
-print(resultado)
+produtos[palavra] = preco
+print(produtos)
